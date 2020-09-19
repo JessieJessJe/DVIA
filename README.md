@@ -1,2 +1,2 @@
 # DVIA FALL 2020
-Projects for Data Viz & Info Aesthetics
+[View my projects](https://jessiejessje.github.io/DVIA/) for the Data Viz & Info Aesthetics Course. 
