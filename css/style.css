@@ -1,0 +1,30 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 5em 2em;
+}
+a {
+	color: #345;
+}
+h1 {
+	font-size: 2.2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h2, h3, h4 {
+	margin-top: 0;
+}
+h3, h4 {
+	margin-bottom: 0.5em;
+}
+p{
+  font-size: 1.5em;
+  
+}
+.project{
+  width: 65%;
+}
+.holder{
+	margin: 0 auto;
+	padding: 1em 0;
+}

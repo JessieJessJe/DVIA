@@ -6,18 +6,26 @@
   <meta name="description" content="DVIA Projects">
   <meta name="author" content="Jessie Han">
 
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
  <!-- <script src="js/scripts.js"></script> -->
- 
- <h1>Hello</h1>
- <h2>Project 1: Visualize Time</h2>
- <div class="project_holder" style='height: 100%'>
-   <div class='tableauPlaceholder' id='viz1600540740682' style='position: relative'> <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;31&#47;311august&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>  <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='311august&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;31&#47;311august&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-Hans' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1600540740682');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='850px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+ <h1>My Visualization</h1>
+ <div class='project'>
+   <h2 class='project_title'>What is a day like in receiving 311 calls?</h2>
+
+   <p>We all have complains. Might be an auto-renewed membership, or neighbors party music. While 'Contact Us' isnt always an option, 311 seems to be there 24/7. </p>
+   <p>The following visualization is an abstraction of our complaints to 311, by breaking down numbers of service requests filterd by complaint types and responsible agencies, using data pulled from <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9">NYC Open Data.</a></p>
+   <p>Analyzing complaints is a traverse. In August, we see the city-proof life routine - Noise complaints filed to NYPD has always came out on top during midnight, especially the weekend's; And reports of noncompliance with phased opening to the Mayor's remained constant during dining hours. Also, we see the aftermath of tropical storm Isaias - Complaints of damaged tree spiked on August 4, after the storm whipping through NYC. </p>
+   <p>Move around the 'date slider' button and discover more!</p>
  </div>
-  
+     <div class='holder' style='width:80%'>
+     <div class='tableauPlaceholder' id='viz1600542251064' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PQZFD756&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;3PQZFD756' /> <param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PQZFD756&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-Hans' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1600542251064');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='100%';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+
+
 </body>
 </html>
