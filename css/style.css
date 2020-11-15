@@ -1,5 +1,5 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	margin: 5em 2em;
 }
 a {
@@ -9,7 +9,7 @@ h1 {
 	font-size: 2.2em;
 }
 h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 h2, h3, h4 {
 	margin-top: 0;
@@ -18,13 +18,20 @@ h3, h4 {
 	margin-bottom: 0.5em;
 }
 p{
-  font-size: 1.5em;
+  font-size: 1.2em;
   
 }
-.project{
+.project_text{
   width: 65%;
+  padding:1em 4em;
 }
+.project{
+	
+	padding:1em;
+  }
 .holder{
+	width:80%; 
+	text-align: center;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 2em 1em;
 }

@@ -11,21 +11,41 @@
 </head>
 
 <body>
- <!-- <script src="js/scripts.js"></script> -->
 
- <h1>My Visualization</h1>
+ <!-- <script src="js/scripts.js"></script> -->
  <div class='project'>
+ <div class='project_text'>
+ <h2 class='project_title'>Those who didn't vote</h2>
+
+  <p>Nearly 65 percent of the voting-eligible population cast a ballot in 2020 Election — a figure that is the highest in over a century. So, there are still 35% of the population didn't vote. Moreover, there are greencard holders, non-immigrant aliens, like me, and undocumented residents that are not eligible to vote.</p>
+  <p>We are all going through it together, perhaps with different perspectives and beliefs. I want to shed a light on the under-the-election-radar group of people - the nonvoters, since we've seen enough coverages the other way around.</p>
+  <p>This visualization is an investigation into the population that didn't vote in 2020 Election. It's not 100% accurate. Just to project a general picture, the population of nonvoters is estimated by resident population minus counts of total votes. </p>
+  <p>* for the dataset is lack of election results in Alaska, the AK area appears grey on the map.</p>
+  <b>Data Source</b>
+  <br>
+  Election Results: <a href="https://github.com/tonmcg/US_County_Level_Election_Results_08-20">Tony MacGovern</a><br>
+  Population: <a href="https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html">US Cencus Bureau</a>, Annual Estimates of the Resident Population for Counties, 2019
+ </div>
+    <div class='holder'>
+      <iframe title="% of 2020 Presidential Election Nonvoters by Counties" aria-label="Map" id="datawrapper-chart-Pp2LW" src="https://datawrapper.dwcdn.net/Pp2LW/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 90% !important; border: none;" height="511"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+      </script>
+    </div>
+
+  </div>
+
+ <div class='project'>
+  <div class='project_text'>
    <h2 class='project_title'>What is a day like in receiving 311 calls?</h2>
 
    <p>We all have complains. Might be an auto-renewed membership, or neighbors party music. While 'Contact Us' isnt always an option, 311 seems to be there 24/7. </p>
    <p>The following visualization is an abstraction of our complaints to 311, by breaking down numbers of service requests filterd by complaint types and responsible agencies, using data pulled from <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9">NYC Open Data.</a></p>
    <p>Analyzing complaints is a traverse. In August, we see the city-proof life routine - Noise complaints filed to NYPD has always came out on top during midnight, especially the weekend's; And reports of noncompliance with phased opening to the Mayor's remained constant during dining hours. Also, we see the aftermath of tropical storm Isaias - Complaints of damaged tree spiked on August 4, after the storm whipping through NYC. </p>
    <p>Move around the 'date slider' button and discover more!</p>
- </div>
+  </div>
      <div class='holder' style='width:80%'>
      <div class='tableauPlaceholder' id='viz1600542251064' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PQZFD756&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;3PQZFD756' /> <param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PQZFD756&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-Hans' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1600542251064');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='100%';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
-
+  </div>
 
 </body>
 </html>
